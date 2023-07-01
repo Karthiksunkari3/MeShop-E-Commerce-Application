@@ -1,0 +1,26 @@
+@media  (max-width: 800px){
+    .sec-cont{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /* .btn-grp{
+        width: 100%;
+    } */
+    .sec-cont>img{
+        width: 600px;
+    }
+}
+
+@media  (max-width: 600px){
+    .sec-cont>img{
+        width: 400px;
+    }
+}
+
+@media  (max-width: 600px){
+    .sec-cont>img{
+        width: 350px;
+    }
+}
